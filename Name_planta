@@ -1,0 +1,6 @@
+#este ejercicio muestra un mensaje si el usuario escribe el nombre de una planta
+planta=input("Ingresa el nombre de una planta")
+if planta=="gardenia":
+  print("Si, la gardenia es la mejor planta de todos los tiempos")
+else:
+  print("No advinaste el nombre de la planta")
