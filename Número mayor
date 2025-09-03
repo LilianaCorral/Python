@@ -1,0 +1,25 @@
+#Este programa muestra el número mayor utilizando el condicional IF, ELIF, ELSE. Utilizado | (pipa). Utilizando la funcion max()
+numero1=int(input("Ingresa un primero número: ")
+numero2=int(input("Ingresa un segundo número: ")
+if numero1 > numero2:
+  print("El número ", numero1," es mayor")
+else numero1 < numero2:
+  print("El número ", numero2, "es mayor")
+elif:
+  print("Los números son iguales")
+
+#Este programa muestra el numero mayor, pero utilizamos | (pipa)
+numero1=int(input("Ingresa un primero número: ")
+numero2=int(input("Ingresa un segundo número: ")
+if numero1 > numero2:
+  print("El número ", numero1," es mayor")
+else numero1 < numero2:
+  print("El número ", numero2, "es mayor")
+
+print("el numero mayor es: ", numero1 | numero2)
+
+#Utiizando la función max() de Python
+num1=int(input("Ingresa un primer número))
+num2=int(input("Ingresa un segundo número))
+largest_number=max(num1,num2)
+print("El número mayor es: ", largest_number)
