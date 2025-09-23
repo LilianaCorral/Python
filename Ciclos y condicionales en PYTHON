@@ -1,1 +1,32 @@
 #CICLOS Y CONDICIONALES EN PYTHON
+--------------------  CONDICIONAL IF/ELIF/ELSE  ------------------------
+if condición:
+    # bloque de código si la condición es verdadera
+elif otra_condición:
+    # bloque de código si la primera fue falsa y esta es verdadera
+else:
+    # bloque de código si ninguna condición fue verdadera
+edad = 18
+
+if edad >= 18:
+    print("Eres mayor de edad")
+elif edad >= 13:
+    print("Eres adolescente")
+else:
+    print("Eres niño")
+--------------------  CONDICIONAL FOR  --------------------------------
+for variable in secuencia:
+    # código a repetir
+EJEMPLIN:
+for i in range(1, 6):
+    print("Número:", i)
+-------------------  Bucle while    ----------------------------------
+Se repite mientras la condición sea verdadera.
+Sintaxis:
+while condición:
+    # código a repetir
+EJEMPLIN:
+contador = 1
+while contador <= 5:
+    print("Contador:", contador)
+    contador += 1
